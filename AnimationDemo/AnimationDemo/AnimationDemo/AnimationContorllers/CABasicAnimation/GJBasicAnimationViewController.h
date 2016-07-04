@@ -9,5 +9,6 @@
 #import "GJBaseViewController.h"
 
 @interface GJBasicAnimationViewController : GJBaseViewController
++(NSString *)classDescription;
 
 @end

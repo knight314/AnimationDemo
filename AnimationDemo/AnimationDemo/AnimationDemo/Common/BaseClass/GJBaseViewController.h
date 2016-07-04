@@ -10,6 +10,6 @@
 
 @interface GJBaseViewController : UIViewController
 
-
++(NSString *)classDescription;
 
 @end

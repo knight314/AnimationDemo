@@ -1,25 +1,21 @@
 //
-//  GJBaseViewController.m
+//  GJGroupAnimationViewController.m
 //  AnimationDemo
 //
-//  Created by Guangyao on 16/5/5.
+//  Created by Guangyao on 16/7/4.
 //  Copyright © 2016年 Guangyao. All rights reserved.
 //
 
-#import "GJBaseViewController.h"
+#import "GJGroupAnimationViewController.h"
 
-@interface GJBaseViewController ()
+@interface GJGroupAnimationViewController ()
 
 @end
 
-@implementation GJBaseViewController
+@implementation GJGroupAnimationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.title=[[self class] classDescription];
-    
-    self.view.backgroundColor=[UIColor whiteColor];
     // Do any additional setup after loading the view.
 }
 
@@ -37,10 +33,11 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-
 +(NSString *)classDescription{
 
-    return @"class";
+    return @"Group Animation";
 }
+
+
+
 @end

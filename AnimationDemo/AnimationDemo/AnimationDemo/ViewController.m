@@ -10,6 +10,13 @@
 
 #import "GJBasicAnimationViewController.h"
 #import "ThrowLineAnimationViewController.h"
+#import "GJUIViewAnimationViewController.h"
+#import "GJKeyFrameAnimationViewController.h"
+#import "GJCATransitionViewController.h"
+#import "GJCommonSenarioViewController.h"
+#import "GJGroupAnimationViewController.h"
+
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) UITableView *mainTableView;
@@ -56,7 +63,7 @@
 -(NSArray *)destinationClasses{
 
     if (!_destinationClasses) {
-        _destinationClasses=@[[GJBasicAnimationViewController class],[ThrowLineAnimationViewController class]];
+        _destinationClasses=@[[GJBasicAnimationViewController class],[GJKeyFrameAnimationViewController class],[GJCATransitionViewController class],[GJGroupAnimationViewController class],[GJCommonSenarioViewController class],[ThrowLineAnimationViewController class]];
     }
     return _destinationClasses;
 
@@ -76,8 +83,12 @@
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     Class class=self.destinationClasses[indexPath.row];
-    cell.textLabel.text=NSStringFromClass(class);
-  
+    
+    
+    cell.textLabel.text=[class classDescription];
+        
+ 
+    
     return cell;
 }
 

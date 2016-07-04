@@ -6,8 +6,9 @@
 //  Copyright © 2016年 Guangyao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
-@interface ThrowLineAnimationViewController : UIViewController
+#import "GJBaseViewController.h"
+
+@interface ThrowLineAnimationViewController : GJBaseViewController
 
 @end

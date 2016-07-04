@@ -31,6 +31,11 @@
 		221E89D81CDB22B700E5593D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E89CA1CDB22B700E5593D /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		221E89D91CDB22B700E5593D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E89CC1CDB22B700E5593D /* View+MASAdditions.m */; };
 		221E89DA1CDB22B700E5593D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E89CF1CDB22B700E5593D /* ViewController+MASAdditions.m */; };
+		2281A0CE1D2A837100FD5E8C /* GJGroupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281A0CD1D2A837100FD5E8C /* GJGroupAnimationViewController.m */; };
+		2281A0D11D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281A0D01D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.m */; };
+		2281A0D41D2A83A200FD5E8C /* GJCATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281A0D31D2A83A200FD5E8C /* GJCATransitionViewController.m */; };
+		2281A0D71D2A83BC00FD5E8C /* GJCommonSenarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281A0D61D2A83BC00FD5E8C /* GJCommonSenarioViewController.m */; };
+		2281A0DA1D2A83E300FD5E8C /* GJUIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281A0D91D2A83E300FD5E8C /* GJUIViewAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +109,16 @@
 		221E89CE1CDB22B700E5593D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		221E89CF1CDB22B700E5593D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		221E89DC1CDB22FF00E5593D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2281A0CC1D2A837100FD5E8C /* GJGroupAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJGroupAnimationViewController.h; sourceTree = "<group>"; };
+		2281A0CD1D2A837100FD5E8C /* GJGroupAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJGroupAnimationViewController.m; sourceTree = "<group>"; };
+		2281A0CF1D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		2281A0D01D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKeyFrameAnimationViewController.m; sourceTree = "<group>"; };
+		2281A0D21D2A83A200FD5E8C /* GJCATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCATransitionViewController.h; sourceTree = "<group>"; };
+		2281A0D31D2A83A200FD5E8C /* GJCATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCATransitionViewController.m; sourceTree = "<group>"; };
+		2281A0D51D2A83BC00FD5E8C /* GJCommonSenarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCommonSenarioViewController.h; sourceTree = "<group>"; };
+		2281A0D61D2A83BC00FD5E8C /* GJCommonSenarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCommonSenarioViewController.m; sourceTree = "<group>"; };
+		2281A0D81D2A83E300FD5E8C /* GJUIViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJUIViewAnimationViewController.h; sourceTree = "<group>"; };
+		2281A0D91D2A83E300FD5E8C /* GJUIViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJUIViewAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +245,8 @@
 		221E89A61CDAF9CA00E5593D /* CAAnimationGroup */ = {
 			isa = PBXGroup;
 			children = (
+				2281A0CC1D2A837100FD5E8C /* GJGroupAnimationViewController.h */,
+				2281A0CD1D2A837100FD5E8C /* GJGroupAnimationViewController.m */,
 			);
 			path = CAAnimationGroup;
 			sourceTree = "<group>";
@@ -248,6 +265,8 @@
 		221E89A81CDAF9CA00E5593D /* CAKeyFrameAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2281A0CF1D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.h */,
+				2281A0D01D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.m */,
 			);
 			path = CAKeyFrameAnimation;
 			sourceTree = "<group>";
@@ -255,6 +274,8 @@
 		221E89A91CDAF9CA00E5593D /* CATransition */ = {
 			isa = PBXGroup;
 			children = (
+				2281A0D21D2A83A200FD5E8C /* GJCATransitionViewController.h */,
+				2281A0D31D2A83A200FD5E8C /* GJCATransitionViewController.m */,
 			);
 			path = CATransition;
 			sourceTree = "<group>";
@@ -266,6 +287,8 @@
 				221E89AC1CDAF9CA00E5593D /* MoveInPath */,
 				221D7A241CDC229D00FEB983 /* ThrowLineAnimationViewController.h */,
 				221D7A251CDC229D00FEB983 /* ThrowLineAnimationViewController.m */,
+				2281A0D51D2A83BC00FD5E8C /* GJCommonSenarioViewController.h */,
+				2281A0D61D2A83BC00FD5E8C /* GJCommonSenarioViewController.m */,
 			);
 			path = CommonSenario;
 			sourceTree = "<group>";
@@ -289,6 +312,8 @@
 		221E89AD1CDAF9CA00E5593D /* UIViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2281A0D81D2A83E300FD5E8C /* GJUIViewAnimationViewController.h */,
+				2281A0D91D2A83E300FD5E8C /* GJUIViewAnimationViewController.m */,
 			);
 			path = UIViewAnimation;
 			sourceTree = "<group>";
@@ -473,13 +498,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2281A0D71D2A83BC00FD5E8C /* GJCommonSenarioViewController.m in Sources */,
 				221E89D21CDB22B700E5593D /* MASConstraint.m in Sources */,
 				221E89D51CDB22B700E5593D /* MASViewAttribute.m in Sources */,
+				2281A0D11D2A838B00FD5E8C /* GJKeyFrameAnimationViewController.m in Sources */,
 				221E89DA1CDB22B700E5593D /* ViewController+MASAdditions.m in Sources */,
 				221E89D71CDB22B700E5593D /* NSArray+MASAdditions.m in Sources */,
 				221E89A41CDAF78600E5593D /* GJBaseViewController.m in Sources */,
 				221E89D61CDB22B700E5593D /* MASViewConstraint.m in Sources */,
 				221E89D41CDB22B700E5593D /* MASLayoutConstraint.m in Sources */,
+				2281A0D41D2A83A200FD5E8C /* GJCATransitionViewController.m in Sources */,
 				221E89751CDAF62600E5593D /* ViewController.m in Sources */,
 				221E89B01CDAF9EA00E5593D /* GJBasicAnimationViewController.m in Sources */,
 				221E89D91CDB22B700E5593D /* View+MASAdditions.m in Sources */,
@@ -489,6 +517,8 @@
 				221E89D31CDB22B700E5593D /* MASConstraintMaker.m in Sources */,
 				221D7A261CDC229D00FEB983 /* ThrowLineAnimationViewController.m in Sources */,
 				221E89721CDAF62600E5593D /* AppDelegate.m in Sources */,
+				2281A0CE1D2A837100FD5E8C /* GJGroupAnimationViewController.m in Sources */,
+				2281A0DA1D2A83E300FD5E8C /* GJUIViewAnimationViewController.m in Sources */,
 				221E896F1CDAF62600E5593D /* main.m in Sources */,
 				221E89B31CDB19DA00E5593D /* GJBasicAnimationItem.m in Sources */,
 			);

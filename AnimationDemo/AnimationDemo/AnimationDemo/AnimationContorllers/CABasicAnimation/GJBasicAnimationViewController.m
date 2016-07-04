@@ -241,7 +241,11 @@
 
 
 }
++(NSString *)classDescription{
 
+    return @"Basic Animation";
+
+}
 
 
 @end

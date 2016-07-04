@@ -116,5 +116,10 @@
 
 }
 
++(NSString *)classDescription{
+
+    return @"Throw Line Animation";
+}
+
 
 @end
