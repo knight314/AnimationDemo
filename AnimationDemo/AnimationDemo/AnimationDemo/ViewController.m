@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 #import "GJBasicAnimationViewController.h"
-
+#import "ThrowLineAnimationViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) UITableView *mainTableView;
@@ -56,7 +56,7 @@
 -(NSArray *)destinationClasses{
 
     if (!_destinationClasses) {
-        _destinationClasses=@[[GJBasicAnimationViewController class]];
+        _destinationClasses=@[[GJBasicAnimationViewController class],[ThrowLineAnimationViewController class]];
     }
     return _destinationClasses;
 
@@ -76,11 +76,8 @@
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     Class class=self.destinationClasses[indexPath.row];
-    UIViewController *destinationVC=[[class alloc]init];
-    
-    if (destinationVC.title) {
-        cell.textLabel.text=destinationVC.title;
-    }
+    cell.textLabel.text=NSStringFromClass(class);
+  
     return cell;
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221D7A231CDC224100FEB983 /* ThrowLineTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D7A221CDC224100FEB983 /* ThrowLineTool.m */; };
+		221D7A261CDC229D00FEB983 /* ThrowLineAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D7A251CDC229D00FEB983 /* ThrowLineAnimationViewController.m */; };
 		221E896F1CDAF62600E5593D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E896E1CDAF62600E5593D /* main.m */; };
 		221E89721CDAF62600E5593D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E89711CDAF62600E5593D /* AppDelegate.m */; };
 		221E89751CDAF62600E5593D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E89741CDAF62600E5593D /* ViewController.m */; };
@@ -49,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221D7A211CDC224100FEB983 /* ThrowLineTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThrowLineTool.h; sourceTree = "<group>"; };
+		221D7A221CDC224100FEB983 /* ThrowLineTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrowLineTool.m; sourceTree = "<group>"; };
+		221D7A241CDC229D00FEB983 /* ThrowLineAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThrowLineAnimationViewController.h; sourceTree = "<group>"; };
+		221D7A251CDC229D00FEB983 /* ThrowLineAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrowLineAnimationViewController.m; sourceTree = "<group>"; };
 		221E896A1CDAF62600E5593D /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221E896E1CDAF62600E5593D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		221E89701CDAF62600E5593D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -258,6 +264,8 @@
 			children = (
 				221E89AB1CDAF9CA00E5593D /* CircleChange */,
 				221E89AC1CDAF9CA00E5593D /* MoveInPath */,
+				221D7A241CDC229D00FEB983 /* ThrowLineAnimationViewController.h */,
+				221D7A251CDC229D00FEB983 /* ThrowLineAnimationViewController.m */,
 			);
 			path = CommonSenario;
 			sourceTree = "<group>";
@@ -272,6 +280,8 @@
 		221E89AC1CDAF9CA00E5593D /* MoveInPath */ = {
 			isa = PBXGroup;
 			children = (
+				221D7A211CDC224100FEB983 /* ThrowLineTool.h */,
+				221D7A221CDC224100FEB983 /* ThrowLineTool.m */,
 			);
 			path = MoveInPath;
 			sourceTree = "<group>";
@@ -475,7 +485,9 @@
 				221E89D91CDB22B700E5593D /* View+MASAdditions.m in Sources */,
 				221E89D11CDB22B700E5593D /* MASCompositeConstraint.m in Sources */,
 				221E89D81CDB22B700E5593D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				221D7A231CDC224100FEB983 /* ThrowLineTool.m in Sources */,
 				221E89D31CDB22B700E5593D /* MASConstraintMaker.m in Sources */,
+				221D7A261CDC229D00FEB983 /* ThrowLineAnimationViewController.m in Sources */,
 				221E89721CDAF62600E5593D /* AppDelegate.m in Sources */,
 				221E896F1CDAF62600E5593D /* main.m in Sources */,
 				221E89B31CDB19DA00E5593D /* GJBasicAnimationItem.m in Sources */,
@@ -706,6 +718,7 @@
 				221E89991CDAF62600E5593D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221E899A1CDAF62600E5593D /* Build configuration list for PBXNativeTarget "AnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +727,7 @@
 				221E899C1CDAF62600E5593D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221E899D1CDAF62600E5593D /* Build configuration list for PBXNativeTarget "AnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -722,6 +736,7 @@
 				221E899F1CDAF62600E5593D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
